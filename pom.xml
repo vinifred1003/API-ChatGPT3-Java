@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.ProjectAPIChatGPT</groupId>
+  <artifactId>ProjectAPIChatGPT</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ProjectAPIChatGPT</name>
+  <dependencies>
+
+<!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+
+<dependency>
+    <groupId>com.squareup.retrofit2</groupId>
+    <artifactId>converter-jackson</artifactId>
+    <version>2.9.0</version> <!-- Use a versão correspondente ao Retrofit -->
+</dependency>
+
+  
+  <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.15.2</version>
+</dependency>
+
+  </dependencies>
+</project>
